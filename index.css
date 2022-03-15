@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #18191A;
+}
+
+.page {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #E4E6EB;
+}
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 65px;
+    letter-spacing: -0.07em;
+}
+p {
+    color: #a5ffd6;
+    font-family: "Comforta", sans-serif;
+    font-size: 35px;
+}
+.content {
+    font-family: "Comforta", sans-serif;
+    display: grid;
+    grid: auto-flow dense / repeat(3, 35px);
+    gap: 14px;
+    margin-top: 15px;
+    padding: 9px;
+}
+.isDisabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
