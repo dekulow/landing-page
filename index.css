@@ -1,3 +1,5 @@
+@import url("https://pagecdn.io/lib/easyfonts/open-sans.css");
+@import url("https://pagecdn.io/lib/easyfonts/comfortaa.css");
 * {
     margin: 0 auto;
     text-decoration: none;
@@ -26,6 +28,10 @@ p {
     color: #a5ffd6;
     font-family: "Comforta", sans-serif;
     font-size: 35px;
+}
+img {
+    height: 44px;
+    width: 44px;
 }
 .content {
     font-family: "Comforta", sans-serif;
